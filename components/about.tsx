@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from "framer-motion";
-
+import SectionHeading from './section-heading';
 export default function About() {
   return (
     <motion.section
@@ -11,7 +11,7 @@ export default function About() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
-      <h2 className="text-3xl font-medium capitalize mb-8 text-center">About me</h2>
+      <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After many years teaching, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
