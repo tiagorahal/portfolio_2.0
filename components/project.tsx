@@ -1,7 +1,15 @@
 import React from 'react'
+import { projectsData } from '@/lib/data';
 
-export default function Project() {
+type ProjectProps = (typeof projectsData)[number];
+
+export default function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+}: ProjectProps) {
   return (
-    <div>project here</div>
+    <div>{title}</div>
   )
 }
