@@ -1,8 +1,8 @@
 "use client";
 
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
-import SectionHeading from './section-heading';
+import SectionHeading from "./section-heading";
 export default function About() {
   return (
     <motion.section
@@ -13,8 +13,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After many years teaching, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+        After many years teaching, I decided to pursue my passion for
+        programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
@@ -31,12 +31,12 @@ export default function About() {
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, playing tabletop RPG, and spending time with my family. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
+        video games, playing tabletop RPG, and spending time with my family. I
+        also enjoy <span className="font-medium">learning new things</span>. I
+        am currently learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
         learning how to play the bass.
       </p>
     </motion.section>
-  )
+  );
 }
