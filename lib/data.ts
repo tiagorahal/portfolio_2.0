@@ -35,24 +35,21 @@ export const experiencesData = [
   {
     title: "Lorem Ipsum",
     location: "Lorem Ipsum",
-    description:
-      "Lorem Ipsum",
+    description: "Lorem Ipsum",
     icon: React.createElement(LuGraduationCap),
     date: "Lorem Ipsum",
   },
   {
     title: "Lorem Ipsum",
     location: "Lorem Ipsum",
-    description:
-      "Lorem Ipsum",
+    description: "Lorem Ipsum",
     icon: React.createElement(CgWorkAlt),
     date: "Lorem Ipsum",
   },
   {
     title: "Lorem Ipsum",
     location: "Lorem Ipsum",
-    description:
-      "Lorem Ipsum",
+    description: "Lorem Ipsum",
     icon: React.createElement(FaReact),
     date: "Lorem Ipsum",
   },
@@ -61,23 +58,38 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Lorem Ipsum",
-    description:
+    description: "Lorem Ipsum",
+    tags: [
       "Lorem Ipsum",
-    tags: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+    ],
     imageUrl: dummyImg,
   },
   {
     title: "Lorem Ipsum",
-    description:
+    description: "Lorem Ipsum",
+    tags: [
       "Lorem Ipsum",
-      tags: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+    ],
     imageUrl: dummyImg,
   },
   {
     title: "Lorem Ipsum",
-    description:
+    description: "Lorem Ipsum",
+    tags: [
       "Lorem Ipsum",
-      tags: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+      "Lorem Ipsum",
+    ],
     imageUrl: dummyImg,
   },
 ] as const;
