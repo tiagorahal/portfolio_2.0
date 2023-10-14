@@ -13,10 +13,12 @@ export default function Experience() {
     <section
       id="experience"
       ref={ref}
-      className="scroll-mt-28 mb-28 sm:mb-40  max-w-[45rem]"
+      className="scroll-mt-28 mb-28 sm:mb-40 max-w-[45rem]"
     >
       <SectionHeading>My experience</SectionHeading>
       <Chrono
+        noUniqueId
+        focusActiveItemOnLoad
         items={experiencesData}
         mode="VERTICAL_ALTERNATING"
         theme={{
