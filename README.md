@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio - A Next.js Project
+
+![My Portfolio](portfolio-screenshot.png)
+
+Welcome to my GitHub repository for My Portfolio, a Next.js project that showcases my skills, experience, and projects. This modern, responsive website is built with React, Tailwind CSS, and TypeScript. It incorporates several cutting-edge features and libraries, including client and server components, context API, animations using Framer Motion, email handling with React Email and Resend, custom React hooks, and a fresh, modern UI design that supports both light and dark modes.
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Getting Started](#getting-started)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Features
+
+- **Client and Server Components:** My portfolio incorporates both client and server components, optimizing performance and providing a smooth user experience.
+
+- **Context API:** I've utilized the Context API to manage global state, making it easier to share data across components.
+
+- **Framer Motion Animations:** To add a touch of interactivity and visual appeal, animations are implemented using Framer Motion.
+
+- **Email Handling with React Email and Resend:** The project demonstrates the usage of React Email and Resend for handling email interactions.
+
+- **Custom React Hooks:** I've created custom React hooks to encapsulate and reuse logic efficiently.
+
+- **Fresh and Modern UI Design:** The user interface is designed to be fresh and modern, ensuring an engaging user experience.
+
+- **Light and Dark Mode:** The website supports both light and dark modes, allowing users to choose the appearance that suits them best.
+
+- **Responsive Design:** My portfolio is responsive, providing a seamless experience on a variety of devices and screen sizes.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## Getting Started
 
-First, run the development server:
+To get started with My Portfolio, follow the instructions below.
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   https://github.com/tiagorahal/portfolio_2.0.git
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd portfolio_2.0
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Usage
+
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application should now be accessible at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions to this project are welcome. Please follow these guidelines when contributing:
 
-## Learn More
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature`.
+3. Commit your changes with descriptive commit messages.
+4. Push your changes to your fork: `git push origin feature/your-feature`.
+5. Create a pull request against the `main` branch of this repository.
 
-To learn more about Next.js, take a look at the following resources:
+### License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the [MIT License](LICENSE.md).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to explore the code, use it as a reference for your own portfolio, and let me know if you have any questions or feedback. Thank you for visiting my portfolio!
