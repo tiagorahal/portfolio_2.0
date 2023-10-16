@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import dummyImg from "@/public/dummy_01.png";
+import dataHarvest from "@/public/screenshot-data-harvest.png"
 
 export const links = [
   {
@@ -100,16 +101,15 @@ export const projectsData = [
     imageUrl: dummyImg,
   },
   {
-    title: "Lorem Ipsum",
-    description: "Lorem Ipsum",
+    title: "Data Harvest",
+    description: `This Ruby web scraping project is designed to extract data from the website "scrapeme.live." It leverages popular Ruby gems, including HTTParty, Nokogiri, Parallel, and RSpec, to efficiently retrieve and parse information from the target website.`,
     tags: [
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
+      "Ruby",
+      "Nokogiri",
+      "Parallel",
+      "RSpec",
     ],
-    imageUrl: dummyImg,
+    imageUrl: dataHarvest,
   },
   {
     title: "Lorem Ipsum",
