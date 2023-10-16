@@ -102,7 +102,7 @@ export const projectsData = [
   },
   {
     title: "Data Harvest",
-    description: `This Ruby web scraping project is designed to extract data from the website "scrapeme.live." It leverages popular Ruby gems, including HTTParty, Nokogiri, Parallel, and RSpec, to efficiently retrieve and parse information from the target website.`,
+    description: `This Ruby web scraping project is designed to extract data from the website "scrapeme.live." It leverages popular Ruby gems, including HTTParty, Nokogiri, Parallel`,
     tags: [
       "Ruby",
       "Nokogiri",
