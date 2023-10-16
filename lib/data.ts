@@ -33,51 +33,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "",
-    cardTitle: "Prefeitura Municipal de Mandaguari",
-    cardSubtitle:
-      "City hall role in the education sector, focused on optimizing the student experience for excellence.",
-    cardDetailedText: "Jul 2018 - Dec 2019",
+    title: "Graduated bootcamp",
+    location: "Miami, FL",
+    description:
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019",
   },
   {
-    title: "",
-    cardTitle: "Romagnole",
-    cardSubtitle:
-      "Transforming an electrical transformer manufacturing industry, led system refactoring, and integrated new features for operational excellence.",
-    cardDetailedText: "Dec 2019 - Mar 2020",
+    title: "Front-End Developer",
+    location: "Orlando, FL",
+    description:
+      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2021",
   },
   {
-    title: "",
-    cardTitle: "Nova Inteligência",
-    cardSubtitle: `Developed and enhanced e-commerce platforms for major clients at a prominent marketing agency, implementing crucial features for improved performance and user experience.`,
-    cardDetailedText: "Sep 2020 - Feb 2021",
-  },
-  {
-    title: "",
-    cardTitle: "Microverse",
-    cardSubtitle: `As a code reviewer, handled diverse tech stacks and mentored students at a tech-focused organization, ensuring code quality and aiding learners.`,
-    cardDetailedText: "Feb 2021 - Feb 2022",
-  },
-  {
-    title: "",
-    cardTitle: "Plathanus Tech",
-    cardSubtitle:
-      "Outsourced developer at a client-focused company, pivotal in refactoring and integrating crucial features for enhanced functionality.",
-    cardDetailedText: "Apr 2022 - Feb 2023",
-  },
-  {
-    title: "",
-    cardTitle: "Easy B2B",
-    cardSubtitle:
-      "Part of the B2B marketplace team, focused on enhancing client experience through various improvements at a dynamic company.",
-    cardDetailedText: "Sep 2022 - Mar 2023",
-  },
-  {
-    title: "",
-    cardTitle: "BairesDev",
-    cardSubtitle:
-      "Dedicated to client-centric development, prioritizing excellence and meeting client needs in a client-facing role at a company.",
-    cardDetailedText: "Jul 2023 - Present",
+    title: "Full-Stack Developer",
+    location: "Houston, TX",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2021 - present",
   },
 ] as const;
 
