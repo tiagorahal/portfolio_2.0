@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import dummyImg from "@/public/dummy_01.png";
 import dataHarvest from "@/public/screenshot-data-harvest.png"
+import paymentMethods from "@/public/payment-methods.jpeg"
 
 export const links = [
   {
@@ -34,23 +35,21 @@ export const experiencesData = [
   {
     title: "Prefeitura Municipal de Mandaguari",
     location: "Mandaguari, PR",
-    description:
-      "City hall role in the education sector, focused on optimizing the student experience for excellence.",
+    description:"Worked on implementing features and maintaining an online library project for public school students, enhancing the student experience in a city hall education sector role.",
     icon: React.createElement(CgWorkAlt),
     date: "Jul 2018 - Dec 2019",
   },
   {
     title: "Romagnole",
     location: "Mandaguari, PR",
-    description:
-      "Transforming an electrical transformer manufacturing industry, led system refactoring, and integrated new features for operational excellence.",
+    description:"Maintaining and developing new features for the internal system of an electrical transformer manufacturing industry, ensuring operational excellence.",
     icon: React.createElement(CgWorkAlt),
     date: "Dec 2019 - Mar 2020",
   },
   {
     title: "Nova Inteligência",
     location: "Maringa, PR",
-    description: `Developed and enhanced e-commerce platforms for major clients at a prominent marketing agency, implementing crucial features for improved performance and user experience.`,
+    description: `Implemented new features and maintained numerous e-commerce platforms for major clients, directly interacting with the clients at a prominent marketing agency.`,
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2020 - Feb 2021",
   },
@@ -83,22 +82,29 @@ export const experiencesData = [
     description:
       "Dedicated to client-centric development, prioritizing excellence and meeting client needs in a client-facing role at a company.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jul 2023 - Present",
+    date: "Jul 2023 - Oct 2023",
+  },
+  {
+    title: "Interativa",
+    location: "Remote",
+    description:
+      "Focused on managing heavy API-based projects, emphasizing robust feature implementations and addressing complex technical requirements in a development role within an organization.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2023 - Mar 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Lorem Ipsum",
-    description: "Lorem Ipsum",
+    title: "Payment Methods",
+    description: "The purpose of this project is to provide functionality for managing boletos (payment slips) on the platform using the Kobana API.",
     tags: [
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
+      "Ruby",
+      "Ruby on Rails",
+      "API",
+      "Tailwind",
     ],
-    imageUrl: dummyImg,
+    imageUrl: paymentMethods,
   },
   {
     title: "Data Harvest",
@@ -111,18 +117,18 @@ export const projectsData = [
     ],
     imageUrl: dataHarvest,
   },
-  {
-    title: "Lorem Ipsum",
-    description: "Lorem Ipsum",
-    tags: [
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-      "Lorem Ipsum",
-    ],
-    imageUrl: dummyImg,
-  },
+  // {
+  //   title: "Lorem Ipsum",
+  //   description: "Lorem Ipsum",
+  //   tags: [
+  //     "Lorem Ipsum",
+  //     "Lorem Ipsum",
+  //     "Lorem Ipsum",
+  //     "Lorem Ipsum",
+  //     "Lorem Ipsum",
+  //   ],
+  //   imageUrl: dummyImg,
+  // },
 ] as const;
 
 export const skillsData = [
