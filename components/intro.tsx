@@ -67,8 +67,11 @@ export default function Intro() {
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">5 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React</span> and{" "}
-        <span className="underline">Ruby on Rails</span>.
+        <span className="underline">Ruby on Rails</span>,{" "}
+        <span className="underline">Node.js</span>,{" "}
+        <span className="underline">React</span>,{" "}
+        <span className="underline">Vue</span> and{" "}
+        <span className="underline">Typescript</span>.
       </motion.h1>
 
       <motion.div

@@ -27,7 +27,7 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          Ruby on Rails, React, Node.js, and TypeScript
+          Ruby on Rails, React, Vue, Node.js, and TypeScript
         </span>
         . I am also familiar with Python and Next.js. I am always looking to
         learn new technologies. I am currently looking for a{" "}
