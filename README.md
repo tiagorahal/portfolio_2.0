@@ -4,6 +4,11 @@
 
 Welcome to my GitHub repository for My Portfolio, a Next.js project that showcases my skills, experience, and projects. This modern, responsive website is built with React, Tailwind CSS, and TypeScript. It incorporates several cutting-edge features and libraries, including client and server components, context API, animations using Framer Motion, email handling with React Email and Resend, custom React hooks, and a fresh, modern UI design that supports both light and dark modes.
 
+## Live Version
+
+Explore the live version of my portfolio: [https://tiago-rahal.vercel.app/](https://tiago-rahal.vercel.app/)
+
+
 ## Table of Contents
 
 1. [Features](#features)
