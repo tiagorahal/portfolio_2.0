@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import dummyImg from "@/public/dummy_01.png";
 import dataHarvest from "@/public/screenshot-data-harvest.png"
 import paymentMethods from "@/public/payment-methods.jpeg"
+import stuffNStuff from "@/public/stuff.jpeg"
 
 export const links = [
   {
@@ -96,8 +97,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Stuff'n Stuff",
+    description: "Discover Stuff'n Stuff: an ecommerce site using Ruby on Rails 7, Hotwire, Tailwind CSS, Stripe for payments, and PostgreSQL/sqlite3.",
+    tags: [
+      "Ruby",
+      "Ruby on Rails",
+      "Tailwind",
+    ],
+    imageUrl: stuffNStuff,
+  },
+  {
     title: "Payment Methods",
-    description: "The purpose of this project is to provide functionality for managing boletos (payment slips) on the platform using the Kobana API.",
+    description: "Rails project README: Uses Rails 7.1.3, Ruby 3.2.2, Tailwind CSS, Rubocop, RSpec, WebMock, and connects to Kobana API with net/http and uri.",
     tags: [
       "Ruby",
       "Ruby on Rails",
@@ -108,7 +119,7 @@ export const projectsData = [
   },
   {
     title: "Data Harvest",
-    description: `This Ruby web scraping project is designed to extract data from the website "scrapeme.live."`,
+    description: `Ruby web scraping project extracts data from "scrapeme.live" using HTTParty, Nokogiri, Parallel, RSpec gems, ideal for all developers.`,
     tags: [
       "Ruby",
       "Nokogiri",
@@ -117,18 +128,6 @@ export const projectsData = [
     ],
     imageUrl: dataHarvest,
   },
-  // {
-  //   title: "Lorem Ipsum",
-  //   description: "Lorem Ipsum",
-  //   tags: [
-  //     "Lorem Ipsum",
-  //     "Lorem Ipsum",
-  //     "Lorem Ipsum",
-  //     "Lorem Ipsum",
-  //     "Lorem Ipsum",
-  //   ],
-  //   imageUrl: dummyImg,
-  // },
 ] as const;
 
 export const skillsData = [
