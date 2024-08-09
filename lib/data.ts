@@ -70,7 +70,7 @@ export const experiencesData = [
     date: "Apr 2022 - Feb 2023",
   },
   {
-    title: "Easy B2B",
+    title: "Easy B2B(Contract)",
     location: "Remote",
     description:
       "Part of the B2B marketplace team, focused on enhancing client experience through various improvements at a dynamic company.",
@@ -78,7 +78,7 @@ export const experiencesData = [
     date: "Sep 2022 - Mar 2023",
   },
   {
-    title: "BairesDev",
+    title: "BairesDev(Contract)",
     location: "Remote",
     description:
       "Dedicated to client-centric development, prioritizing excellence and meeting client needs in a client-facing role at a company.",
@@ -86,7 +86,7 @@ export const experiencesData = [
     date: "Jul 2023 - Oct 2023",
   },
   {
-    title: "Interativa",
+    title: "Interativa(Contract)",
     location: "Remote",
     description:
       "Focused on managing heavy API-based projects, emphasizing robust feature implementations and addressing complex technical requirements in a development role within an organization.",
@@ -94,7 +94,7 @@ export const experiencesData = [
     date: "Oct 2023 - Mar 2024",
   },
   {
-    title: "Outliant",
+    title: "Outliant(Contract)",
     location: "Remote",
     description:
       "Dedicated to enhancing customer experiences through continuous updates and refinement of project features.",
