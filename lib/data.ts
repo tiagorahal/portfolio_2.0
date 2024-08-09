@@ -93,6 +93,22 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Oct 2023 - Mar 2024",
   },
+  {
+    title: "Outliant",
+    location: "Remote",
+    description:
+      "Dedicated to enhancing customer experiences through continuous updates and refinement of project features.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Mar 2024 -Jul 2024",
+  },
+  {
+    title: "9dices",
+    location: "Remote",
+    description:
+      "Leading the development and implementation of key features for the app's first release, focused on enhancing customer experiences.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jul 2024",
+  },
 ] as const;
 
 export const projectsData = [
