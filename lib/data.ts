@@ -75,7 +75,7 @@ export const experiencesData = [
     description:
       "Part of the B2B marketplace team, focused on enhancing client experience through various improvements at a dynamic company.",
     icon: React.createElement(CgWorkAlt),
-    date: "Sep 2022 - Mar 2023",
+    date: "Jun 2022 - Mar 2023",
   },
   {
     title: "BairesDev(Contract)",
@@ -83,23 +83,7 @@ export const experiencesData = [
     description:
       "Dedicated to client-centric development, prioritizing excellence and meeting client needs in a client-facing role at a company.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jul 2023 - Oct 2023",
-  },
-  {
-    title: "Interativa(Contract)",
-    location: "Remote",
-    description:
-      "Focused on managing heavy API-based projects, emphasizing robust feature implementations and addressing complex technical requirements in a development role within an organization.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Oct 2023 - Mar 2024",
-  },
-  {
-    title: "Outliant(Contract)",
-    location: "Remote",
-    description:
-      "Dedicated to enhancing customer experiences through continuous updates and refinement of project features.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Mar 2024 -Jul 2024",
+    date: "Jul 2023 - Mar 2024",
   },
   {
     title: "9dices",
@@ -107,7 +91,7 @@ export const experiencesData = [
     description:
       "Leading the development and implementation of key features for the app's first release, focused on enhancing customer experiences.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jul 2024",
+    date: "Feb 2024",
   },
 ] as const;
 
